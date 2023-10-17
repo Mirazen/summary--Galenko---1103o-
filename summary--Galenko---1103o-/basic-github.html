@@ -1,0 +1,60 @@
+<html lang="ru">
+   <head>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="github-style.css">
+      <title>GitHub</title>
+   </head>
+
+   <body>
+      <header>
+         <img src="images/logo.png" alt="logo">
+         <p>Galenko Daniil, 1103o, Lucy</p>
+      </header>
+
+      <section class="center"><a href="index.html">На главную</a></section>
+      <h1>GitHub</h1>
+      <ul>
+         <li><b>GitHub:</b>
+            - Объяснение: GitHub - это платформа <b>хостинга, хранения и совместной разработке</b>. Здесь разработчики могут хранить свои <b>проекты</b>, работать над ними в <b>команде, самостоятельно, параллельно</b> и отслеживать <b>изменения, обновления</b>.
+            - Аналогия: GitHub, как облачное хранилище проектов, подобен социальной сети для разработчиков, где они вместе строят и совершенствуют свои творения.</li>
+         <li><b>SSH-ключ:</b>
+            - Объяснение: SSH-ключ - это способ безопасной <b>аутентификации (подключение) на удаленном (облачном)</b> сервере. Он используется для подключения к GitHub, например, без постоянного ввода пароля.
+            - Аналогия: SSH-ключ, как сканер отпечатка пальца, позволяет вам разблокировать устройство (подключаться к серверу) без необходимости запоминать пароль.</li>
+         <li><b>Репозиторий:</b>
+            - Объяснение: Репозиторий - это место, где хранится код проекта, вместе со всей его историей изменений.
+            - Аналогия: Репозиторий, как папка с проектом, подобен архиву, где хранятся все чертежи, планы и изменения к вашему главному творению.</li>
+         <li><b>Коммит:</b>
+            - Объяснение: Коммит - это сохранение изменений в коде проекта. Он создает точку в истории, которую можно сохранить и вернуться к ней.
+            - Аналогия: Коммит, как сохранение в игре, фиксирует текущее состояние, чтобы в случае чего можно было вернуться к нему.</li>
+         <li><b>Ветка:</b>
+            - Объяснение: Ветка - это отдельная линия разработки, которая может быть создана для работы над новой версией (функцией) или исправлением, не затрагивая основной код проекта.
+            - Аналогия: Ветка, как отдельный поток в разговоре, позволяет вам обсуждать и вносить изменения, не прерывая основной диалог.</li>
+      </ul>
+
+      <div class="git-block">
+         <p>
+            <span class="comand">ssh-keygen -t rsa</span>   - <span class="comment">создает SSH ключ, который нужно ввести в настройках GitHub.</span></br>
+            <span class="comand">git clone</span>  <span class="argument">[ssh-ключ]</span> - <span class="comment">клонировать репозиторий и создать папку с ее названием.</span></br>
+            <span class="comand">git init</span>  - <span class="comment">создать ЛОКАЛЬНЫЙ репозиторий</span></br>
+            <span class="comand">git add</span>  <span class="argument">[название файла]</span> - <span class="comment">проиндексировать/выделить файл или папку.</span></br>
+            <span class="comand">git commit -m</span>  <span class="argument"> "любой текст" </span>  - <span class="comment">добавить обязательный комментарий при пуше/загрузке/удалении файла/ветки.</span></br>
+            <span class="comand">git branch</span>  <span class="argument">[название ветки]</span> - <span class="comment">создать ветку.</span></br>
+            <span class="comand">git branch -D</span>  <span class="argument">[название ветки]</span> - <span class="comment">удалить ветку.</span></br>
+            <span class="comand">git branch -a</span>    - <span class="comment">посмотреть все существующие ветки.</span></br>
+            <span class="comand">git checkout</span>  <span class="argument">[название ветки]</span> - <span class="comment">войти в ветку</span></br>
+            <span class="comand">git remote</span>  - <span class="comment">посмотреть список подключенных репозиториев.</span></br>
+            <span class="comand">git remote -v</span>     - <span class="comment">посмотреть ссылки, подключенные к репозиториям.</span></br>
+            <span class="comand">git remote add</span>  <span class="argument">[дать название] [ssh-ключ]</span> - <span class="comment">подключить репозиторий.</span></br>
+            <span class="comand">git remote set-url</span>  <span class="argument">[название репозитория] [ssh-ключ]</span>  - <span class="comment">изменить ссылку на репозиторий.</span></br>
+            <span class="comand">git rm</span>  <span class="argument">[название файла]</span>  - <span class="comment">перестать индексировать файл/удалить его.</span></br>
+            <span class="comand">git push -u</span>  <span class="argument">[название репозитория в git remote] [название ветки]</span>    - <span class="comment">отправляет/запушивает файлы в GitHub/репозиторий на сайте.</span></br>
+            <span class="comand">git status</span>  - <span class="comment">посмотреть удаленные, непроиндексированные, индексированные файлы, статус коммитов и т.п.</span></br>
+            <span class="comand">git log</span>  - <span class="comment">посмотреть логи.</span>
+         </p>
+      </div>
+      <footer>
+         16/10/23
+         <section  class="center"><a href="https://ru.hexlet.io/">Хекслет</a></section>
+      </footer>
+   </body>
+</html>

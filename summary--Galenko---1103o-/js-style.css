@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "RobotoMono";
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "SFMono";
+    src: url(fonts/SFMono-Bold.otf);
+}
+body {
+    line-height: 2em;
+}
+a {
+    font-size: 1.2em;
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 50px
+}
+footer {
+    font-size: 0,7em;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+.list {
+    font-family: "SFMono", serif;
+    font-size: 1.3em;
+}
+.comand {
+    color: rgb(58, 30, 41);
+}

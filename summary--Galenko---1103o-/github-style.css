@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "RobotoMono";
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "SFMono";
+    src: url(fonts/SFMono-Bold.otf);
+}
+
+body {
+    font-family:  "Roboto", serif;
+    font-size: 1em;
+    line-height: 1.7;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+header {
+    text-align: center;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 50px
+}
+
+footer {
+    font-size: 0,7em;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.git-block {
+    background: #484f57;
+    padding: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: "SFMono", serif;
+    font-size: 0,85em;
+}
+.comand {
+    color: #24292E;
+}
+.argument {
+    color: #009999;
+}
+.comment {
+    color: #999988;
+}
